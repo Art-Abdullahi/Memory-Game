@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  color: whitesmoke;
+  font-family: "Open Sans", sans-serif !important;
+  background: #42275a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #734b6d,
+    #42275a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #734b6d,
+    #42275a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.w3-container {
+  background: #42275a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #734b6d,
+    #42275a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #734b6d,
+    #42275a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+img {
+  height: 100px;
+  width: 100px;
+}
+.grid {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 400px;
+}
+h3 {
+  margin-left: auto;
+  margin-right: auto;
+}
